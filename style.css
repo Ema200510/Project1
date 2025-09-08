@@ -1,5 +1,15 @@
 .header{
-    height: 200px;
+    height: 120px;
     width: 100%;
-    background-color: blanchedalmond;
+    background-color: aquamarine;
+}
+.header-top{
+    height: 70px;
+    width: 100%;
+    background-color: bisque;
+}
+.header-bottom{
+    height: 50px;
+    width: 100%;
+    background-color: beige;
 }
