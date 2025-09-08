@@ -14,8 +14,9 @@
     width: 40%;
     background-color: lightblue;
     margin: 2px;
-    padding: 10px;
     font-size: 50px;
+    text-align: center;
+    text-shadow: 0 0 3px #8154c0;
 }
 .news{
     width: 60%;
