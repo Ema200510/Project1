@@ -2,6 +2,7 @@
     height: 120px;
     width: 100%;
     background-color: aquamarine;
+    padding: 10px,10px,10px,10px;
 
 }
 .header-top{
@@ -9,7 +10,6 @@
     width: 100%;
     background-color: bisque;
     display: flex;
-    padding: 10px,10px,10px,10px;
 }
 .logo{
     width: 40%;
