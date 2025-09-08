@@ -14,14 +14,17 @@
     width: 40%;
     background-color: lightblue;
     margin: 2px;
+    padding: 10px;
 }
 .news{
     width: 60%;
     background-color: lightgrey;
     margin: 2px;
+    padding: 10px;
 }
 .header-bottom{
     height: 50px;
     width: 100%;
     background-color: beige;
+    padding: 10px;
 }
