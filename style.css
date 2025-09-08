@@ -2,12 +2,13 @@
     height: 120px;
     width: 100%;
     background-color: aquamarine;
-    display: flex;
+
 }
 .header-top{
     height: 70px;
     width: 100%;
     background-color: bisque;
+    display: flex;
 }
 .header-bottom{
     height: 50px;
