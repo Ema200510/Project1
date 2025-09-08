@@ -26,9 +26,11 @@
 .header-bottom{
     height: 50px;
     width: 100%;
-    text-align: center;
     background-color: beige;
+}
+.menu{
     padding: 10px;
+    text-align: center;
 }
 .content{
     height: 100%;
