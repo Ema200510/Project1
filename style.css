@@ -10,6 +10,14 @@
     background-color: bisque;
     display: flex;
 }
+.logo{
+    width: 40%;
+    background-color: lightblue;
+}
+.news{
+    width: 60%;
+    background-color: lightgrey;
+}
 .header-bottom{
     height: 50px;
     width: 100%;
