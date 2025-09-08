@@ -2,6 +2,7 @@
     height: 120px;
     width: 100%;
     background-color: aquamarine;
+    display: flex;
 
 }
 .header-top{
@@ -29,4 +30,14 @@
     width: 100%;
     background-color: beige;
     padding: 10px;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: black;
 }
