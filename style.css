@@ -26,6 +26,7 @@
 .header-bottom{
     height: 50px;
     width: 100%;
+    text-align: center;
     background-color: beige;
     padding: 10px;
 }
