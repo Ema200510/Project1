@@ -17,6 +17,10 @@
     text-align: center;
     text-shadow: 0 0 3px red;
 }
+.logo img{
+    height: 100%;
+    width: 100%;
+}
 .news{
     width: 60%;
     background-color: lightgrey;
