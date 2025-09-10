@@ -29,6 +29,7 @@
     height: 70px;
     width: 32%;
     margin-left: 5px;
+    gap: 10px;
 }
 .header-bottom{
     height: 50px;
