@@ -30,8 +30,7 @@
 .image-container > img{
     display: inline-block;
     height: 70px;
-    width:140px;
-    margin: 10px;
+    width: 33.33%;
 }
 .header-bottom{
     height: 50px;
