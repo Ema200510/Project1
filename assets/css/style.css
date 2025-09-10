@@ -28,7 +28,7 @@
     justify-content: space-between;
     height: 70px;
     width: 32%;
-    gap: 10px;
+    margin-left: 5px;
 }
 .header-bottom{
     height: 50px;
