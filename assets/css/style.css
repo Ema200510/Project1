@@ -9,39 +9,38 @@
     width: 1200px;
     margin: auto;
 }
-.header-section {
+.header{
     height: 120px;
-    width: 1200;
+    width: 1200px;
     margin: auto;
 }
-
-.header-section-top{
+.header-top{
     height: 70px;
     width: 1200px;
     display: flex;
 }
-.header-section-logo{
+.logo{
     width: 450px;
     margin: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.header-section-logo > img{
+.logo > img{
     height: 70px;
     width: 420px;
 }
-.header-section-image{
+.image-container{
     width: 750px;
 }
-.header-section-ima > img{
+.image-container > img{
     display: inline-block;
     justify-content: space-between;
     height: 70px;
     width: 32%;
     margin-left: 5px;
 }
-.header-section-bottom{
+.header-bottom{
     height: 50px;
     width: 100%;
     font-weight: bold;
