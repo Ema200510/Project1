@@ -6,7 +6,6 @@
 .header-top{
     height: 70px;
     width: 100%;
-    background-color: bisque;
     display: flex;
 }
 .logo{
