@@ -28,7 +28,7 @@
     padding: 10px;
 }
 .image-container > img{
-    display: inline-block;
+    display: flex;
     height: 70px;
     width:33%;
     margin: 10px;
