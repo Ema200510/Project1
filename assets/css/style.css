@@ -29,7 +29,8 @@
     height: 70px;
     width: 32%;
     flex: 5;
-    margin: 0 2px 0 2px;
+    margin-right: 2px;
+    margin-left: 5px;
 
 }
 .header-bottom{
