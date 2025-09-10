@@ -33,7 +33,7 @@
 .header-bottom{
     height: 50px;
     width: 100%;
-    display: flex;
+    font-weight: bold;
     background-color: beige;
     border-top: 1px solid black;
     border-bottom: 2px solid black;
