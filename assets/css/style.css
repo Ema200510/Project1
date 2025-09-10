@@ -22,13 +22,16 @@
     width: 50%;
 }
 .image-container{
-    width: 65%;
+    width: 60%;
     background-color: lightgrey;
     margin: 2px;
     padding: 10px;
 }
 .image-container > img{
     display: inline-block;
+    height: 70px;
+    width:33%;
+    margin: 10px;
 }
 .header-bottom{
     height: 50px;
