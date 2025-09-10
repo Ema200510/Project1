@@ -30,8 +30,7 @@
     justify-content: space-between;
     height: 70px;
     width: 32%;
-    margin: 0 5px;
-    padding: 5px;
+    flex: 1;
 }
 .header-bottom{
     height: 50px;
