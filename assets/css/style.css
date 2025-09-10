@@ -34,7 +34,6 @@
     height: 50px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
     background-color: beige;
     border-top: 1px solid black;
     border-bottom: 2px solid black;
