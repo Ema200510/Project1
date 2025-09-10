@@ -10,7 +10,7 @@
 .logo{
     width: 40%;
     margin: 2px;
-    text-align: center;
+    justify-content: center;
 }
 .logo > img{
     height: 100%;
