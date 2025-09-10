@@ -24,8 +24,6 @@
 .image-container{
     width: 60%;
     background-color: lightgrey;
-    margin: 2px;
-    padding: 2px;
 }
 .image-container > img{
     display: inline-block;
