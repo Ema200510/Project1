@@ -16,7 +16,6 @@
 }
 .image-container{
     width: 60%;
-    background-color: lightgrey;
 }
 .image-container > img{
     display: inline-block;
