@@ -26,8 +26,8 @@
     background-color: lightgrey;
 }
 .image-container > img{
-   display: inline-block;
-    justify-content: space-between;
+    display: inline-block;
+    justify-content: space-around;
     height: 70px;
     width: 32%;
     flex: 1;
