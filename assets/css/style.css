@@ -1,14 +1,14 @@
 .header{
     height: 120px;
-    width: 100%;
+    width: 1200px;
 }
 .header-top{
     height: 70px;
-    width: 100%;
+    width: 1200px;
     display: flex;
 }
 .logo{
-    width: 40%;
+    width: 480;
     background-color: white;
     margin: 2px;
     font-size: 50px;
@@ -17,20 +17,18 @@
 }
 .logo > img{
     height: 100%;
-    width: 50%;
+    width: 240px;
 }
 .image-container{
-    width: 60%;
+    width: 720;
     background-color: lightgrey;
 }
 .image-container > img{
     display: inline-block;
     justify-content: space-between;
     height: 70px;
-    width: 32%;
-    flex: 5;
-    margin-right: 2px;
-    margin-left: 4px;
+    width: 240px;
+    flex: 1;
 
 }
 .header-bottom{
