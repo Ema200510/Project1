@@ -21,11 +21,14 @@
     height: 100%;
     width: 50%;
 }
-.news{
+.image-container{
     width: 65%;
     background-color: lightgrey;
     margin: 2px;
     padding: 10px;
+}
+.image-container > img{
+    display: inline-block;
 }
 .header-bottom{
     height: 50px;
