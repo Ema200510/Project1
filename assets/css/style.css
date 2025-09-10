@@ -27,11 +27,8 @@
     display: inline-block;
     justify-content: space-between;
     height: 70px;
-    width: 250px;
+    width: 32%;
     flex: 1;
-    margin-right: 2px;
-    margin-left: 4px;
-
 }
 .header-bottom{
     height: 50px;
