@@ -33,6 +33,7 @@
     background-color: beige;
     border-top: 1px solid black;
     border-bottom: 2px solid black;
+    display: flex;
 }
 
 .content{
