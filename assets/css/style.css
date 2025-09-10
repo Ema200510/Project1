@@ -1,25 +1,26 @@
 .header{
     height: 120px;
-    width: 100%;
+    width: 1170px;
+    margin: auto;
 }
 .header-top{
     height: 70px;
-    width: 100%;
+    width: 1170px;
     display: flex;
 }
 .logo{
-    width: 40%;
+    width: 470px;
     margin: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .logo > img{
-    height: 85px;
-    width: 412px;
+    height: 70px;
+    width: 420px;
 }
 .image-container{
-    width: 60%;
+    width: 700px;
 }
 .image-container > img{
     display: inline-block;
