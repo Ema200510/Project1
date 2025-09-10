@@ -9,6 +9,8 @@
 }
 .logo{
     width: 40%;
+    margin: 2px;
+    text-align: center;
 }
 .logo > img{
     height: 100%;
