@@ -7,16 +7,16 @@
 
 .header{
     height: 120px;
-    width: 1170px;
+    width: 1200px;
     margin: auto;
 }
 .header-top{
     height: 70px;
-    width: 1170px;
+    width: 1200px;
     display: flex;
 }
 .logo{
-    width: 470px;
+    width: 450px;
     margin: 2px;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@
     width: 420px;
 }
 .image-container{
-    width: 700px;
+    width: 750px;
 }
 .image-container > img{
     display: inline-block;
