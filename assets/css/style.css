@@ -28,9 +28,10 @@
 .image-container > img{
     display: flex;
     justify-content: space-between;
+    height: 70px;
+    width: 32%;
     margin: 0 5px;
     padding: 5px;
-    height: auto;
 }
 .header-bottom{
     height: 50px;
