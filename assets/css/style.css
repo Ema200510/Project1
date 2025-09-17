@@ -1,63 +1,320 @@
-
-.container {
-    height: 120px;
-    width: 1200px;
+.container{
+    height: 100%;
     margin: auto;
 }
-.header{
+/* Header Section S*/
+.header-section{
+    height: 200px;
+    width: 100%;
+}
+.header-section-top{
     height: 120px;
-    width: 1200px;
-    margin: auto;
+    width: 100%;
+    display: flex;
+    gap: 100px;
 }
-.header-top{
-    height: 70px;
-    width: 1200px;
+.header-section-logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.header-section-logo > img{
+    width: 300px;
+    height: 200px;
+}
+.header-section-news{
+    height: 120px;
+    width: 80%;
     display: flex;
 }
-.logo{
-    width: 450px;
-    margin: 2px;
+.header-section-news-item{
+    width: 33.33%;
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
-.logo > img{
-    height: 70px;
-    width: 420px;
-}
-.image-container{
-    width: 750px;
-}
-.image-container > img{
-    display: inline-block;
-    justify-content: space-between;
-    height: 70px;
-    width: 32%;
-    margin-left: 5px;
-}
-.header-bottom{
-    height: 50px;
+.header-section-bottom{
+    height: 80px;
     width: 100%;
-    font-weight: bold;
-    background-color: beige;
-    border-top: 1px solid black;
-    border-bottom: 2px solid black;
+    display: flex;
+}
+.header-section-bottom li{
+    display: inline-block;
+    margin: 10px;
+}
+.header-section-bottom li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    justify-content: left;
+}
+.header-section-bottom li a:hover {
+    color: lightskyblue;
 }
 
-.content{
+/* Header Section E*/
+/* Content Section S*/
+.main-content{
+    display: flex;
+    width: 100%;
+
+}
+/* Content Section S*/
+.main-content-left{
+    width: 75%;
+    height: auto;
+    position: relative;
+    border-bottom:1px solid black ;
+}
+.hero-news-img{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid black ;
+
+}
+.hero-news-img >img{
+    width:100%;
     height: 100%;
-    width: 100%;
-    background-color: white;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 20%;
-    
+    object-fit: cover;
+    object-position: top;
 }
-.footer{
-    height: 60px;
-    width: 100%;
-    background-color: blanchedalmond;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 10px;
+.hero-news-title >h4 {
+  position: absolute;
+  bottom: 5px;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  font-weight: normal;
 }
+.hero-news-title > h4:hover {
+    color: blue;
+}
+
+.container-item{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hero-news-item {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.hero-news-item-card {
+    width: 47%;
+    padding: 10px;
+    display: flex;
+}
+
+.hero-news-item-img {
+    width: 40%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-news-item-img img {
+    width: 100%;
+}
+
+.hero-news-item-content {
+    width: 60%;
+}
+
+.hero-news-item-content h6{
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.hero-news-item-content p{
+    font-size: 15px;
+    color: black;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    height: 63px;
+    overflow: hidden;
+}
+.main-content-right{
+    width: 25%;
+    height: auto;
+    border-left:1px solid black;
+    border-bottom:1px solid black ;
+}
+.card img{
+    width: 100%;
+    height: 150px;
+}
+.card img > img{
+    width:100%;
+    height:100%;
+    padding: 10px;
+}
+.card h2{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding-left: 40px;
+}
+.card h6{
+    margin-bottom: 0;
+    padding-left: 20px;
+    color: lightslategray;
+}
+.card p{
+    font-size: 15px;
+    color: black;
+    padding-left: 20px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    height: 63px;
+    overflow: hidden;
+}
+/* Content Section E*/
+.add{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin: 1px solid  gray;
+   
+}
+.add > img{
+    width: 80%;
+    height: auto;
+    display: inline-block;
+
+}
+
+.news{
+    width: 100%;
+    height: 800px;
+    border: 0 1px solid gray;
+
+}
+.news-top{
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+}
+.news-top-item{
+    height: 100%;
+    width: 20%;
+    border: 1px solid gray;
+}
+.news-top-item > img {
+    width: 80%;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+.news-top-item h2{
+    font-size: 15px;
+    font-weight: normal;
+    color:black;
+    padding-left: 20px;
+}
+
+.news-top-item h6{
+    margin-bottom: 0;
+    padding-left: 20px;
+    color: lightslategray;
+}
+
+.news-bottom{
+    width: 100%;
+    height: 800px;
+
+}
+/* .news-bottom-left{
+    width: 25%;
+    height: 1200px;
+    border:1px solid black ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.news-bottom-left-item{
+    width: 100%;
+    height: 150px;
+}
+.news-bottom-left-item > img{
+    width: 80%;
+    height: 120px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.news-bottom-left-item  h2{
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(95, 137, 227);
+    padding-left: 20px;
+}
+.news-bottom-left-item  p{
+    font-size: 15px;
+    color: black;
+    padding-left: 20px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    height: 63px;
+    overflow: hidden;
+}
+.news-bottom-left-item  h6{
+    padding: 5px;
+    color: lightslategray;
+}
+
+ */
+ .news-bottom{
+    height: 800px;
+    width: 100%;
+}
+
+.news-bottom-item {
+    display: flex;
+}
+
+.news-bottom-card {
+    width: 47%;
+    padding: 10px;
+    display: flex;
+}
+
+.news-bottom-img {
+    width: 40%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.news-bottom-item-img img {
+    width: 80%;
+    height: 200px;
+    margin: 20px;
+}
+
+.news-bottom-item-content {
+    width: 60%;
+}
+
+.news-bottom-item-content h6{
+    padding-bottom: 40px;
+}
+
+.news-bottom-item-content p{
+    font-size: 15px;
+    color: black;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    height: 63px;
+    overflow: hidden;
+}
+ 
