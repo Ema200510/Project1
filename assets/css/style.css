@@ -2,11 +2,16 @@
     height: 100%;
     margin: auto;
 }
-/* Header Section S*/
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Header Section */
 .header-section{
     height: 200px;
     width: 100%;
 }
+/* Header Section TOP*/
 .header-section-top{
     height: 120px;
     width: 100%;
@@ -35,6 +40,7 @@
     justify-content: center;
     align-items: center;
 }
+/* Header Section Bottom*/
 .header-section-bottom{
     height: 80px;
     width: 100%;
@@ -53,15 +59,13 @@
 .header-section-bottom li a:hover {
     color: lightskyblue;
 }
-
-/* Header Section E*/
-/* Content Section S*/
+/* Content Section */
 .main-content{
     display: flex;
     width: 100%;
 
 }
-/* Content Section S*/
+/* Content Section Left*/
 .main-content-left{
     width: 75%;
     height: auto;
@@ -140,6 +144,7 @@
     height: 63px;
     overflow: hidden;
 }
+/* Content Section Right*/
 .main-content-right{
     width: 25%;
     height: auto;
@@ -176,7 +181,7 @@
     height: 63px;
     overflow: hidden;
 }
-/* Content Section E*/
+/* Add Section */
 .add{
     width: 100%;
     text-align: center;
@@ -190,131 +195,192 @@
     display: inline-block;
 
 }
-
-.news{
-    width: 100%;
-    height: 800px;
-    border: 0 1px solid gray;
-
-}
+/* News Section Top*/
 .news-top{
     width: 100%;
     height: 300px;
     display: flex;
+    gap: 1px;
 
 }
 .news-top-item{
-    height: 100%;
     width: 20%;
+    height: 100%;
     border: 1px solid gray;
 }
-.news-top-item > img {
-    width: 80%;
-    height: 100px;
-    margin: 20px;
-    display: inline-block;
+.news-top-item > img{
+    height: 150px;
+    width: 100%;
 }
-.news-top-item h2{
-    font-size: 15px;
+.news-top-item > h2{
     font-weight: normal;
-    color:black;
-    padding-left: 20px;
+    font-size: 15px;
+    padding-left: 10px;  
 }
-
-.news-top-item h6{
-    margin-bottom: 0;
-    padding-left: 20px;
-    color: lightslategray;
+.news-top-item > h6{
+    font-size: 10px;
+    color: gray;
+    padding-left: 15px;
 }
-
+/* News Section Bottom*/
 .news-bottom{
     width: 100%;
-    height: 800px;
+    height: 500px;
+    display: flex;
+    gap: 1px;
 
 }
-/* .news-bottom-left{
-    width: 25%;
-    height: 1200px;
-    border:1px solid black ;
-    display: flex;
-    flex-wrap: wrap;
+.news-bottom-item{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid gray;
 }
-.news-bottom-left-item{
+.news-bottom-item > img{
+    height: auto;
+    width: 100%;
+}
+.news-bottom-item > h3{
+    font-weight: lighter;
+    font-size: 20px;
+    color: blue;
+    padding-left: 20px;  
+}
+.news-bottom-item > h6{
+    font-size: 10px;
+    color: gray;
+    padding-left: 15px;
+}
+.news-bottom-item > p{
+    color: black;
+    padding-left:10px ;
+}
+/* Multiple News Section */
+.category-news{
+    height: 625px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+.category-news-card{
+    width: 24%;
+    height: 625px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.category-news-card-title{
+    height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.category-news-card-hero{
+    width: 100%;
+    height: 200px;
+}
+.category-news-card-hero > img{
     width: 100%;
     height: 150px;
+    object-fit: cover;
+    object-position: top;
 }
-.news-bottom-left-item > img{
-    width: 80%;
-    height: 120px;
-    margin: 20px;
-    display: inline-block;
-}
-
-.news-bottom-left-item  h2{
-    font-size: 20px;
-    font-weight: normal;
-    color: rgb(95, 137, 227);
-    padding-left: 20px;
-}
-.news-bottom-left-item  p{
+.category-news-card-hero > h6{
     font-size: 15px;
-    color: black;
-    padding-left: 20px;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-    height: 63px;
-    overflow: hidden;
+    margin: 5px;
+    font-weight: normal;
 }
-.news-bottom-left-item  h6{
-    padding: 5px;
-    color: lightslategray;
-}
-
- */
- .news-bottom{
-    height: 800px;
+.category-news-card-news{
+    height: 425px;
     width: 100%;
-}
+    margin-top: 10px;
+    border-top: 1px solid black;
 
-.news-bottom-item {
+}
+.category-news-card-item{
+    width: 100%;
     display: flex;
+    align-items: center;
+    object-fit: cover;
 }
-
-.news-bottom-card {
-    width: 47%;
-    padding: 10px;
-    display: flex;
-}
-
-.news-bottom-img {
+.category-news-card-item > img{
     width: 40%;
-    margin-right: 10px;
+    height: 80px;
+    margin: 5px;
+}
+.category-news-card-item > a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+/* Footer Section */
+.footer{
+    padding: 5px;
+
+}
+.footer-logo{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid lightgrey;
+
+}
+.footer-logo > img{
+    height: 80px;
+    width: 200px;
+
+}
+.footer-menu{
+    height: 50px;
+    width: 100%;
     display: flex;
     align-items: center;
 }
 
-.news-bottom-item-img img {
-    width: 80%;
-    height: 200px;
-    margin: 20px;
+.footer-menu > ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
+.footer-menu > ul li{
+    list-style: none;
+}
+.footer-menu > ul li a:hover{
+    color: blue;
+}
+.footer-link{
+    display: flex;
+    gap: 20px;
+    border-top: 1px solid lightgrey;
 
-.news-bottom-item-content {
-    width: 60%;
 }
-
-.news-bottom-item-content h6{
-    padding-bottom: 40px;
+.footer-link li{
+    display: inline-block;
 }
-
-.news-bottom-item-content p{
-    font-size: 15px;
-    color: black;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-    height: 63px;
-    overflow: hidden;
+.footer-link li a i{
+    font-size: 30px;
 }
- 
+.footer-link li a i:hover{
+    color: blue;
+}
+.footer-menu-bottom{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid lightgray;
+    
+}
+.footer-menu-bottom ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 30px;
+}
+.footer-bottom{
+    border-top: 1px solid lightgrey;
+}
+.footer-bottom p{
+    align-items: center;
+    text-align: center;
+}
